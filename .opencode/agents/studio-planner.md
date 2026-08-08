@@ -9,7 +9,7 @@ permission:
   bash: deny
 ---
 
-Read `brief.md`, `test-plan.md`, the existing files, and the relevant available skills before proposing work.
+Read `brief.md`, `test-plan.md`, `studio-settings.md`, the existing files, and the relevant available skills before proposing work.
 
 Do not edit files or write code. Return a plan with these headings:
 
@@ -18,6 +18,7 @@ Do not edit files or write code. Return a plan with these headings:
 3. Files and changes
 4. Phone permission and fallback behavior
 5. Device tests
-6. One question or risk, if one matters
+6. Feedback checkpoint
+7. One question or risk, if one matters
 
-Keep the first slice small enough to implement and test in one short studio session. Treat phone hardware as optional until its enabled flag is true. Prefer p5-phone helpers and p5.js 2.x patterns over custom browser-event plumbing.
+Make the feedback checkpoint match `feedback_frequency` in `studio-settings.md`. Keep the first slice small enough to implement and test in one short studio session. Treat phone hardware as optional until its enabled flag is true. Prefer p5-phone helpers and p5.js 2.x patterns over custom browser-event plumbing.

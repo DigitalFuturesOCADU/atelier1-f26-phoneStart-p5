@@ -99,6 +99,10 @@ Start with these commands in OpenCode:
 
 `/checkpoint` does not push. You still use GitHub Desktop to push when you are ready to publish.
 
+### Control feedback frequency
+
+Set `feedback_frequency` near the top of `studio-settings.md`. The default, `after-each-slice`, asks for your feedback after one small, testable piece of work. You can make the workflow more hands-on with `after-each-change`, or more independent with `at-decision-points` or `only-when-blocked`. Tell the agent to continue after changing the setting.
+
 ### Visual critique loop
 
 After making a small change, view it on a phone or in a browser and take a screenshot. Attach that image to the OpenCode message with `/visual-critique`. The critic can see the attachment and `brief.md`, but it cannot see the running page by itself.
@@ -150,5 +154,6 @@ simple-sketch.js      Plain p5 starting point
 brief.md              Your concept before implementation
 test-plan.md          What you tested on a phone
 workflow-notes.md     What you learned from the agent workflow
+studio-settings.md    How often agents pause for your feedback
 .opencode/            Project-local OpenCode roles, commands, and skills
 ```
