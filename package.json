@@ -1,0 +1,13 @@
+{
+  "name": "atelier1-f26-phone-start-p5",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A minimal p5.js and p5-phone studio starter.",
+  "scripts": {
+    "preview": "npx --yes serve . -l 8080",
+    "phone": "cloudflared tunnel --url http://localhost:8080"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
