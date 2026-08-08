@@ -78,12 +78,13 @@ https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/
 
 ## OpenCode workflow
 
-This project includes three small roles:
+This project includes four small roles:
 
 | Role           | Default model     | Job                                                |
 | -------------- | ----------------- | -------------------------------------------------- |
 | Studio Builder | DeepSeek V4 Flash | Make one small, testable change.                   |
 | Studio Planner | GLM-5.2           | Make a plan without editing.                       |
+| Visual Critic  | MiMo V2.5         | Critique attached screenshots without editing.     |
 | Git Steward    | DeepSeek V4 Flash | Make an explicit local checkpoint without pushing. |
 
 Start with these commands in OpenCode:
@@ -92,10 +93,23 @@ Start with these commands in OpenCode:
 /project-plan Describe the experience you want to make
 /first-slice Implement the first version of the interaction
 /phone-check
+/visual-critique Attach a screenshot and assess the interface against the brief
 /checkpoint Describe the change you are saving
 ```
 
 `/checkpoint` does not push. You still use GitHub Desktop to push when you are ready to publish.
+
+### Visual critique loop
+
+After making a small change, view it on a phone or in a browser and take a screenshot. Attach that image to the OpenCode message with `/visual-critique`. The critic can see the attachment and `brief.md`, but it cannot see the running page by itself.
+
+Use one bounded loop:
+
+```text
+make one slice -> test -> screenshot -> visual critique -> choose one revision -> retest
+```
+
+The critic gives evidence-based feedback. You decide which feedback to use. Do not ask it to revise the project automatically.
 
 ## Change the models
 
@@ -104,6 +118,7 @@ The pinned model assignments live at the top of these files:
 ```text
 .opencode/agents/studio-builder.md
 .opencode/agents/studio-planner.md
+.opencode/agents/visual-critic.md
 .opencode/agents/git-steward.md
 ```
 
