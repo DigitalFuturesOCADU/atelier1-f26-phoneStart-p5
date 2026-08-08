@@ -84,7 +84,7 @@ This project includes four small roles:
 | -------------- | ----------------- | -------------------------------------------------- |
 | Studio Builder | DeepSeek V4 Flash | Make one small, testable change.                   |
 | Studio Planner | GLM-5.2           | Make a plan without editing.                       |
-| Visual Critic  | MiMo V2.5         | Critique attached screenshots without editing.     |
+| Visual Critic  | Qwen3.7 Plus      | Critique attached screenshots without editing.     |
 | Git Steward    | DeepSeek V4 Flash | Make an explicit local checkpoint without pushing. |
 
 Start with these commands in OpenCode:

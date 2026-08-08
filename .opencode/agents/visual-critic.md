@@ -1,7 +1,7 @@
 ---
 description: Reviews attached interface screenshots against a studio brief without editing code.
 mode: subagent
-model: opencode-go/mimo-v2.5
+model: opencode-go/qwen3.7-plus
 temperature: 0.3
 steps: 6
 permission:
