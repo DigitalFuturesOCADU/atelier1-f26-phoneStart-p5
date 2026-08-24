@@ -80,12 +80,12 @@ https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/
 
 This project includes four small roles:
 
-| Role           | Default model     | Job                                                |
-| -------------- | ----------------- | -------------------------------------------------- |
-| Studio Builder | DeepSeek V4 Flash | Make one small, testable change.                   |
-| Studio Planner | GLM-5.2           | Make a plan without editing.                       |
-| Visual Critic  | Qwen3.7 Plus      | Critique attached screenshots without editing.     |
-| Git Steward    | DeepSeek V4 Flash | Make an explicit local checkpoint without pushing. |
+| Role           | Default model                | Job                                                           |
+| -------------- | ---------------------------- | ------------------------------------------------------------- |
+| Studio Builder | DeepSeek V4 Flash Vision Exp | Make one small, testable change; can inspect attached images. |
+| Studio Planner | GLM-5.2                      | Make a plan without editing.                                  |
+| Visual Critic  | Qwen3.7 Plus                 | Critique attached screenshots without editing.                |
+| Git Steward    | DeepSeek V4 Flash            | Make an explicit local checkpoint without pushing.            |
 
 Start with these commands in OpenCode:
 
@@ -129,10 +129,27 @@ The pinned model assignments live at the top of these files:
 Each file has a line like:
 
 ```yaml
-model: opencode-go/deepseek-v4-flash
+model: opencode-go/deepseek-v4-flash-vision-exp
 ```
 
 Change only one role at a time when comparing models. Use the same brief and request, start from the same commit, test on the same phone, and record what happened in `workflow-notes.md`.
+
+## Current model lineup
+
+This template is a dated starting point, not a permanent model ranking. OpenCode Go changes its models, capabilities, prices, and limits regularly. Run `/models` in OpenCode before a comparison, and check [OpenCode Go](https://opencode.ai/go) for current limits and data terms.
+
+The current roles intentionally separate kinds of work:
+
+| Need                                                         | Starting model               | Why                                                                                |
+| ------------------------------------------------------------ | ---------------------------- | ---------------------------------------------------------------------------------- |
+| Repeated building, code inspection, and attached screenshots | DeepSeek V4 Flash Vision Exp | Tool use plus image input at Flash pricing. It is the default workhorse.           |
+| Difficult project planning                                   | GLM-5.2                      | More limited and expensive, so reserve it for consequential planning or diagnosis. |
+| Independent visual critique                                  | Qwen3.7 Plus                 | Image/video-capable second opinion that does not edit the project.                 |
+| Git checkpoint and background tasks                          | DeepSeek V4 Flash            | Text-only work does not need vision, preserving vision for building.               |
+
+Do not use a temporary free or promotional model as the basis of a required course workflow. For example, a model marked experimental, contributor, free, or limited-time may disappear, change terms, or have different privacy conditions. Compare models by changing one role at a time and keeping the prompt, starting commit, and test evidence constant.
+
+Image input does not prove that a model can verify an interaction. A screenshot can support critique of hierarchy, scale, color, legibility, and visible states. Phone behavior still needs a real device test recorded in `test-plan.md`.
 
 Quit and restart OpenCode after changing `opencode.json`, an agent, a command, or a skill. OpenCode loads this project configuration when it starts.
 

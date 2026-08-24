@@ -1,7 +1,7 @@
 ---
 description: Builds one small, testable p5-phone studio slice at a time.
 mode: primary
-model: opencode-go/deepseek-v4-flash
+model: opencode-go/deepseek-v4-flash-vision-exp
 temperature: 0.4
 permission:
   edit: ask

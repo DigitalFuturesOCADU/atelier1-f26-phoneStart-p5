@@ -27,6 +27,8 @@ In OpenCode, connect your Go subscription and run `/models`. This starter expect
 ```text
 opencode-go/glm-5.2
 opencode-go/deepseek-v4-flash
+opencode-go/deepseek-v4-flash-vision-exp
+opencode-go/qwen3.7-plus
 ```
 
 If a listed model is unavailable, choose an available model in the OpenCode interface or update the matching agent file in `.opencode/agents/`.
