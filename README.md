@@ -4,6 +4,8 @@ This is a minimal starting point for making an experimental phone-based browser 
 
 The default sketch is a small tilt-controlled color field. It is not an assignment to preserve. It is a working example of a phone permission, sensor input, and a desktop fallback.
 
+This first phase creates a public prototype: a small working test of an experience that will later be developed and tested with four or more people. A first slice may involve one or two people, but it should name the public form, participant roles, and collective condition it is preparing to test.
+
 ## Start your project
 
 1. On GitHub, choose **Use this template** and create a repository in your own account.

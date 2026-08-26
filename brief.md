@@ -6,6 +6,16 @@ Write this before asking an agent to build your project. It can be short and unf
 
 Replace this sentence with a description of the experience you want someone to have.
 
+## Public Configuration and Phase-Two Horizon
+
+This project must be encountered publicly. The first prototype may test one or two people, but it must contribute to a future experience for four or more people.
+
+**Public form:** Shared device, many phones in one space, phone plus shared output, serial handoff, witnessed interaction, distributed network, or other:
+
+**Roles:** Who holds, acts, watches, initiates, responds, passes, or chooses not to participate?
+
+**Phase-two question:** What must be tested when four or more people encounter this work?
+
 ## Interaction material
 
 What does the work notice, and what does it change in response? Start with one input and one output.
@@ -18,9 +28,9 @@ What does the work notice, and what does it change in response? Start with one i
 
 See `phone-sensor-actuator-reference.md` for starting pathways, compatibility, and detailed capabilities.
 
-## Participant journey
+## Participant Score / Public Encounter
 
-1. A person opens the experience.
+1. People arrive at or encounter the experience.
 2.
 3.
 4.

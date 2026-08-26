@@ -19,6 +19,7 @@ Do not edit files or write code. Return a plan with these headings:
 4. Phone permission and fallback behavior
 5. Device tests
 6. Feedback checkpoint
-7. One question or risk, if one matters
+7. Public horizon and phase-two implication
+8. One question or risk, if one matters
 
-Make the feedback checkpoint match `feedback_frequency` in `studio-settings.md`. Keep the first slice small enough to implement and test in one short studio session. Treat phone hardware as optional until its enabled flag is true. Prefer p5-phone helpers and p5.js 2.x patterns over custom browser-event plumbing.
+Make the feedback checkpoint match `feedback_frequency` in `studio-settings.md`. Explain how the slice tests a component of the future four-or-more-person encounter without attempting to build the entire collective system now. Keep the first slice small enough to implement and test in one short studio session. Treat phone hardware as optional until its enabled flag is true. Prefer p5-phone helpers and p5.js 2.x patterns over custom browser-event plumbing.

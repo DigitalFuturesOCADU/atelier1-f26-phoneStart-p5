@@ -5,4 +5,4 @@ agent: studio-planner
 
 Read `brief.md`, `test-plan.md`, `studio-settings.md`, and the current project. Plan this request: $ARGUMENTS
 
-Do not edit files. Return the seven-part studio-planner format.
+Do not edit files. Return the eight-part studio-planner format.

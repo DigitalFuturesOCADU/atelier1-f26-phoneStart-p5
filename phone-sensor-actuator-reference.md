@@ -6,12 +6,13 @@ This is not a menu of features to add. A strong first prototype usually uses one
 
 ## Start Here: From an Idea to a First Prototype
 
-Before planning code, write four short decisions in `brief.md`.
+Before planning code, write five short decisions in `brief.md`.
 
 1. **Situation:** Where is the phone, who is holding it, and what changes in their attention, body, or relation to another person?
-2. **Input:** What does the work notice? Choose one direct phone capability first.
-3. **Output:** What changes in response: display, sound, vibration, light, another device, or another person?
-4. **Fallback:** What remains possible on a laptop, without permission, or on a different phone platform?
+2. **Public form:** How is the work shared, witnessed, passed, distributed, or made collective? The first prototype may be smaller, but name the future four-or-more-person encounter.
+3. **Input:** What does the work notice? Choose one direct phone capability first.
+4. **Output:** What changes in response: display, sound, vibration, light, another device, or another person?
+5. **Fallback:** What remains possible on a laptop, without permission, or on a different phone platform?
 
 Use this sentence frame:
 
@@ -19,6 +20,12 @@ Use this sentence frame:
 When [a person / environment / second device] does [input condition],
 the phone changes [output] so that [intended experience].
 If that input is unavailable, [fallback] still makes the experience meaningful.
+```
+
+Add one public-horizon sentence:
+
+```text
+In the larger four-or-more-person version, [roles / shared condition / handoff / common output].
 ```
 
 Example:
@@ -52,6 +59,20 @@ Start with one of the first four pathways. Add another capability only after the
 | Camera lens       | Brightness, color, motion, or raw camera image | Display                    | Connects the screen to what is in front of or behind the phone | Can the phone act as a lens, witness, mirror, or light-sensitive object?    |
 
 These pathways are sequenced deliberately. Touch is the safest first material. Motion adds permission and bodily orientation. Microphone and camera add privacy, environmental context, and a stronger need for real-device testing.
+
+### Choose a Public Form
+
+The first prototype can test one relation, but the project must have a public horizon. Do not treat the first prototype as a private solo app that is later copied onto several phones.
+
+| Public form              | What a first prototype can test                         | What a four-or-more-person version can develop                                    |
+| ------------------------ | ------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Shared device            | A handoff, group gesture, or temporary screen condition | Passing, turn-taking, coordinated holding, and residue from previous participants |
+| Many phones, one space   | One participant's local behavior and its legibility     | Roles, synchronization, aggregation, contrast, and shared timing                  |
+| Phone plus shared output | One phone's sensor-to-display or sound relation         | Group contribution to a projection, sound field, object, or installation          |
+| Witnessed action         | What an observer can perceive when one person acts      | Interpretation, invitation, spectatorship, response, and collective consequence   |
+| Distributed network      | A single shared value or event                          | Multiple devices, remote participants, shared state, and connection-loss behavior |
+
+Public participation needs clear conditions. Explain when camera, microphone, location, or other data is used; give people a meaningful observer or alternate role; and design refusal as a valid condition rather than a failure.
 
 ### Save These for Later
 

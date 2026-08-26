@@ -15,3 +15,10 @@ Test on an actual phone whenever you add a phone capability.
 ## Device details
 
 Record browser, operating system, and whether you used a temporary tunnel or GitHub Pages.
+
+## Public Prototype Evidence
+
+- Public form being tested:
+- Who participated or witnessed the test:
+- What could a witness understand from the current version:
+- What must be tested when four or more people participate:
