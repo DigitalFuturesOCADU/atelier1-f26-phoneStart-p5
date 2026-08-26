@@ -9,7 +9,7 @@ The default sketch is a small tilt-controlled color field. It is not an assignme
 1. On GitHub, choose **Use this template** and create a repository in your own account.
 2. Click **Open in GitHub Desktop** and clone your new project.
 3. Open that folder in OpenCode.
-4. Read `brief.md` and change the project idea into your own words.
+4. Read `brief.md` and `phone-sensor-actuator-reference.md`; choose one interaction material and change the project idea into your own words.
 5. Open `index.html` in a browser for a quick desktop view.
 
 ## Two starting points
@@ -172,5 +172,7 @@ brief.md              Your concept before implementation
 test-plan.md          What you tested on a phone
 workflow-notes.md     What you learned from the agent workflow
 studio-settings.md    How often agents pause for your feedback
+phone-sensor-actuator-reference.md
+                     How a phone can notice, respond, and connect
 .opencode/            Project-local OpenCode roles, commands, and skills
 ```

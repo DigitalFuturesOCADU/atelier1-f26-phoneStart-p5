@@ -9,7 +9,7 @@ permission:
   bash: deny
 ---
 
-Read `brief.md`, `test-plan.md`, `studio-settings.md`, the existing files, and the relevant available skills before proposing work.
+Read `brief.md`, `test-plan.md`, `studio-settings.md`, the existing files, and the relevant available skills before proposing work. Consult `phone-sensor-actuator-reference.md` when the brief names a phone input, output, capability, platform constraint, or interaction mapping.
 
 Do not edit files or write code. Return a plan with these headings:
 

@@ -6,16 +6,17 @@ Write this before asking an agent to build your project. It can be short and unf
 
 Replace this sentence with a description of the experience you want someone to have.
 
-## Phone behavior
+## Interaction material
 
-Which phone capability matters to the experience?
+What does the work notice, and what does it change in response? Start with one input and one output.
 
-- Motion / tilt
-- Touch
-- Microphone
-- Camera
-- Location
-- Other:
+**Input:** Touch, motion / tilt, microphone, camera, location, another phone, external object, or other:
+
+**Output:** Display, sound, vibration, torch, another device, another person, or other:
+
+**Relation:** When this input changes, what changes in the output? Is it continuous, event-like, delayed, resistant, or reciprocal?
+
+See `phone-sensor-actuator-reference.md` for starting pathways, compatibility, and detailed capabilities.
 
 ## Participant journey
 
